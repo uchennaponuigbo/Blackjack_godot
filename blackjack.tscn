@@ -1,0 +1,135 @@
+[gd_scene load_steps=9 format=3 uid="uid://cbos8bget6ppw"]
+
+[ext_resource type="Texture2D" uid="uid://f7ch3qach7ek" path="res://blackjack_background.jpg" id="1_i3i8m"]
+[ext_resource type="Script" path="res://Scripts/blackjack.cs" id="1_m5kn8"]
+[ext_resource type="FontFile" uid="uid://dhharxp6teioe" path="res://blackjack/blackjack.otf" id="2_vah0a"]
+[ext_resource type="AudioStream" uid="uid://bc5robc38g5hp" path="res://Audio/music/Luigi's Casino - New Super Mario Bros..mp3" id="4_k14jr"]
+[ext_resource type="AudioStream" uid="uid://c3egm7jfwoie4" path="res://Audio/SFX/card_dealing.mp3" id="5_lxklj"]
+[ext_resource type="AudioStream" uid="uid://cixg4wshspk3q" path="res://Audio/SFX/vc_narration_result_victory.wav" id="6_otxs4"]
+[ext_resource type="AudioStream" uid="uid://cm0qalt77t6gh" path="res://Audio/SFX/vc_narration_defeated.wav" id="7_mco1v"]
+[ext_resource type="AudioStream" uid="uid://bf6ky23urnsj7" path="res://Audio/SFX/vc_narration_draw.wav" id="8_350h4"]
+
+[node name="BlackJack" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_m5kn8")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_i3i8m")
+
+[node name="HitButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 552.0
+offset_right = 512.0
+offset_bottom = 608.0
+theme_override_fonts/font = ExtResource("2_vah0a")
+theme_override_font_sizes/font_size = 34
+text = "Hit"
+
+[node name="StandButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 640.0
+offset_top = 552.0
+offset_right = 832.0
+offset_bottom = 608.0
+theme_override_fonts/font = ExtResource("2_vah0a")
+theme_override_font_sizes/font_size = 34
+text = "Stand"
+
+[node name="DealerLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 760.0
+offset_top = 32.0
+offset_right = 1104.0
+offset_bottom = 105.0
+theme_override_fonts/font = ExtResource("2_vah0a")
+theme_override_font_sizes/font_size = 50
+text = "Dealer Total: X"
+horizontal_alignment = 1
+
+[node name="PlayerLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 32.0
+offset_right = 400.0
+offset_bottom = 105.0
+theme_override_fonts/font = ExtResource("2_vah0a")
+theme_override_font_sizes/font_size = 50
+text = "Player Total: X"
+horizontal_alignment = 1
+
+[node name="ResultsLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 184.0
+offset_right = 768.0
+offset_bottom = 395.0
+theme_override_colors/font_color = Color(0.670588, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.65098, 0.0431373, 0.380392, 1)
+theme_override_fonts/font = ExtResource("2_vah0a")
+theme_override_font_sizes/font_size = 150
+text = "You Win!"
+
+[node name="ButtonReplay" type="Button" parent="."]
+layout_mode = 0
+offset_left = 984.0
+offset_top = 560.0
+offset_right = 1120.0
+offset_bottom = 618.0
+theme_override_fonts/font = ExtResource("2_vah0a")
+theme_override_font_sizes/font_size = 36
+text = "Replay"
+
+[node name="LabelPlayerWins" type="Label" parent="."]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 104.0
+offset_right = 222.0
+offset_bottom = 172.0
+theme_override_fonts/font = ExtResource("2_vah0a")
+theme_override_font_sizes/font_size = 41
+text = "Wins: x"
+
+[node name="LabelDealerWins" type="Label" parent="."]
+layout_mode = 0
+offset_left = 944.0
+offset_top = 96.0
+offset_right = 1086.0
+offset_bottom = 164.0
+theme_override_fonts/font = ExtResource("2_vah0a")
+theme_override_font_sizes/font_size = 41
+text = "Wins: x"
+
+[node name="AudioStreamMusic" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(224, 160)
+stream = ExtResource("4_k14jr")
+volume_db = -10.0
+autoplay = true
+bus = &"Music"
+
+[node name="SFXCard" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_lxklj")
+bus = &"SFX"
+
+[node name="SFXWin" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_otxs4")
+volume_db = -5.0
+bus = &"SFX"
+
+[node name="SFXLose" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_mco1v")
+volume_db = -5.0
+bus = &"SFX"
+
+[node name="SFXDraw" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_350h4")
+volume_db = -5.0
+bus = &"SFX"
+
+[connection signal="pressed" from="HitButton" to="." method="_on_hit_button_pressed"]
+[connection signal="pressed" from="StandButton" to="." method="_on_stand_button_pressed"]
+[connection signal="pressed" from="ButtonReplay" to="." method="_on_button_replay_pressed"]

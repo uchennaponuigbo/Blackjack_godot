@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5SlyL5RZwBRRElfMloLTksXR61iPqCwIvdXJ5zKbDDIcldjX6z9zfP6K0l8+ZMvaPl7Vc4QXISkKSJS5wh695g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\uchen\\OneDrive\\Desktop\\GoDot\\Projects\\BlackJack\\BlackJack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\uchen\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\uchen\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\uchen\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

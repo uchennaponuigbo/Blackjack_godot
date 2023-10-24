@@ -1,0 +1,35 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1696034144
+blackjack.tscn::PackedScene::4873083398650274296::1696011334::0::1::::<><>::uid://f7ch3qach7ek::::res://blackjack_background.jpg<>res://Scripts/blackjack.cs<>uid://dhharxp6teioe::::res://blackjack/blackjack.otf<>uid://bc5robc38g5hp::::res://Audio/music/Luigi's Casino - New Super Mario Bros..mp3<>uid://c3egm7jfwoie4::::res://Audio/SFX/card_dealing.mp3<>uid://cixg4wshspk3q::::res://Audio/SFX/vc_narration_result_victory.wav<>uid://cm0qalt77t6gh::::res://Audio/SFX/vc_narration_defeated.wav<>uid://bf6ky23urnsj7::::res://Audio/SFX/vc_narration_draw.wav
+blackjack_background.jpg::CompressedTexture2D::417139736236601578::1695704875::1695704893::1::::<><>::
+default_bus_layout.tres::AudioBusLayout::8413779752189082808::1696007952::0::1::::<><>::
+icon.svg::CompressedTexture2D::2379454430461212784::1695702713::1695702722::1::::<><>::
+README.txt::TextFile::-1::1696011139::0::1::::<><>::
+::res://Audio/::1696007708
+::res://Audio/music/::1696007970
+Luigi's Casino - New Super Mario Bros..mp3::AudioStreamMP3::2589786950512178229::1695769501::1696007970::1::::<><>::
+::res://Audio/SFX/::1696010472
+card_dealing.mp3::AudioStreamMP3::6746773926658386037::1696009289::1696009382::1::::<><>::
+vc_narration_defeated.wav::AudioStreamWAV::5667689015383963175::1696010171::1696010472::1::::<><>::
+vc_narration_draw.wav::AudioStreamWAV::2802012103557434002::1696010171::1696010472::1::::<><>::
+vc_narration_result_victory.wav::AudioStreamWAV::5382250078476563560::1696010172::1696010472::1::::<><>::
+::res://blackjack/::1695707769
+blackjack.otf::FontFile::7665066191963506544::1695707099::1695707769::1::::<><>::
+Typadelic License - Black Jack.txt::TextFile::-1::1695707099::0::1::::<><>::
+::res://Cards_img/::1696006147
+card_2.png::CompressedTexture2D::4263797973208879783::1695923787::1696006147::1::::<><>::
+card_3.png::CompressedTexture2D::6749861257069778868::1696003762::1696006147::1::::<><>::
+card_4.png::CompressedTexture2D::3263732408968526714::1696004164::1696006147::1::::<><>::
+card_5.png::CompressedTexture2D::8462433194113068283::1696004243::1696006147::1::::<><>::
+card_6.png::CompressedTexture2D::1795415632932153012::1696005230::1696006147::1::::<><>::
+card_7.png::CompressedTexture2D::2266235167374733265::1696005379::1696006147::1::::<><>::
+card_8.png::CompressedTexture2D::8890165677323814233::1696005417::1696006147::1::::<><>::
+card_9.png::CompressedTexture2D::8104824156561720636::1696005569::1696006147::1::::<><>::
+card_10.png::CompressedTexture2D::5108382160227181309::1696005634::1696006147::1::::<><>::
+card_ace.png::CompressedTexture2D::7987252250186399266::1695923612::1696006147::1::::<><>::
+card_face_down.png::CompressedTexture2D::4677509215495278925::1696006111::1696006147::1::::<><>::
+card_joker.png::CompressedTexture2D::4362527610377294872::1696005739::1696006147::1::::<><>::
+card_king.png::CompressedTexture2D::8668183790830075430::1696005930::1696006147::1::::<><>::
+card_queen.png::CompressedTexture2D::5485717879374213904::1696005882::1696006147::1::::<><>::
+::res://Scripts/::1695709540
+blackjack.cs::CSharpScript::-1::1696010896::0::1::::<><>::

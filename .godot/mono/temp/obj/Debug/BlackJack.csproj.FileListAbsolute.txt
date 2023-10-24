@@ -1,0 +1,17 @@
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\bin\Debug\BlackJack.deps.json
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\bin\Debug\BlackJack.runtimeconfig.json
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\bin\Debug\BlackJack.dll
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\bin\Debug\BlackJack.pdb
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.csproj.AssemblyReference.cache
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.AssemblyInfoInputs.cache
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.AssemblyInfo.cs
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.csproj.CopyComplete
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.dll
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\refint\BlackJack.dll
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.pdb
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\BlackJack.genruntimeconfig.cache
+C:\Users\uchen\OneDrive\Desktop\GoDot\Projects\BlackJack\.godot\mono\temp\obj\Debug\ref\BlackJack.dll
